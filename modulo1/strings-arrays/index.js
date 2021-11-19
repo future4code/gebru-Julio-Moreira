@@ -28,18 +28,19 @@
 // const semVogalO = comidas.replaceAll('frango',  comidaPreferida)
 // console.log(semVogalO);
 //exerício  3
-listaDeTarefas = []
-const pergunta1 = prompt("pergunta 1")
-const adicionar1 = listaDeTarefas.push(0)
-const pergunta2 = prompt("pergunta 2")
-const adicionar2 = listaDeTarefas.push(1)
-const pergunta3 = prompt("pergunta 3")
-const adicionar3 = listaDeTarefas.push(2)
-console.log( pergunta1, pergunta2,pergunta3);
-const pergunta4 = prompt("qual tarefa já realizou de 0 a 2")
-const perguntas = ( pergunta1, pergunta2,pergunta3);
-const removeElementos = listaDeTarefas.splice(pergunta4, perguntas )
-console.log(removeElementos)
-console.log(perguntas)
+// listaDeTarefas = []
+// const pergunta1 = prompt("pergunta 1")
+// const adicionar1 = listaDeTarefas.push(0)
+// const pergunta2 = prompt("pergunta 2")
+// const adicionar2 = listaDeTarefas.push(1)
+// const pergunta3 = prompt("pergunta 3")
+// const adicionar3 = listaDeTarefas.push(2)
+// console.log( pergunta1, pergunta2,pergunta3);
+// const pergunta4 = prompt("qual tarefa já realizou de 0 a 2")
+// const array = [0,1,2];
+// const removeElementos = listaDeTarefas.splice(0,1,2 )
+// console.log(removeElementos)
+// console.log(perguntas)
+
 
 
