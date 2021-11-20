@@ -71,6 +71,7 @@
 // mensagem(texto1)
 
 // Exercício 3
+<<<<<<< HEAD
 // function verNumeros(num1, num2){
 //          const soma = num1 + num2
 //          return soma
@@ -112,3 +113,28 @@
 // let num2 = Number(prompt("Digite outro numero"));
 
 // console.log(verNumeros(num1,num2));
+=======
+function verNumeros(num1, num2){
+         const soma = num1 + num2
+        
+         const diferenca = num1 % num2
+        
+         //const resultado = num1 * num2
+         
+        // const resultado = num1 / num2
+         
+         return soma;
+
+         return diferenca
+       
+     }
+     verNumeros()
+     
+
+let num1 = Number(prompt("Digite um numero"));
+let num2 = Number(prompt("Digite outro numero"));
+console.log(verNumeros(num1,num2));
+console.log(verNumeros(num1,num2));
+
+
+>>>>>>> 1c3f38b7af98cca664a3963c498c5c65bff068a6
