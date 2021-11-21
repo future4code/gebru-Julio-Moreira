@@ -2,12 +2,12 @@
 
 // EXERCÍCIO 0A
 // function soma(num1, num2) {
-//   num1 = 2
-//   num2 = 4
+//   num1 = 1
+//   num2 = 2
 //   return num1 + num2
 // }
 
-// console.log(soma)
+// console.log(soma())
 
 // // EXERCÍCIO 0B
 //  function imprimeMensagem() {
@@ -24,7 +24,7 @@
 // const largura = 5
 //  area = altura * largura
 //  }
-// console.log(area)
+// console.log(area())
 
 // // EXERCÍCIO 02
 //  function imprimeIdade() {
@@ -112,9 +112,11 @@
 //  }
 //  console.log(array.length -1)
 
-// // EXERCÍCIO 11
+// // EXERCÍCIO 11 não sei que metodo usar
 // function trocaPrimeiroEUltimo(array) {
-//   // implemente sua lógica aqui
+//   const fruits = ["ola", "abc"];
+
+//   fruits.splice([2,1] );
 
 // }
 
@@ -144,15 +146,15 @@
 // }
 
 // // EXERCÍCIO 15
- function checaValidadeInscricaoLabenu() {
-    const idadeAtual = prompt('Você tem mais de 18 anos!')
-    const estudo = prompt('Você possui ensino médio completo')
-    const horario = prompt('Você possui disponibilidade exclusiva durante os horários do curso!')
+//  function checaValidadeInscricaoLabenu() {
+//     const idadeAtual = prompt('Você tem mais de 18 anos!')
+//     const estudo = prompt('Você possui ensino médio completo')
+//     const horario = prompt('Você possui disponibilidade exclusiva durante os horários do curso!')
 
-    if(idadeAtual => 18 && estudo == "sim" && horario == "sim"){
-      console.log(true)
-    }
-      else(
-          console.log(false)
-      )
- }
+//     if(idadeAtual => 18 && estudo == "sim" && horario == "sim"){
+//       console.log(true)
+//     }
+//       else(
+//           console.log(false)
+//       )
+//  }
