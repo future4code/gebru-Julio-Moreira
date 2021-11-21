@@ -97,7 +97,7 @@
 
 //  }
 
-// // EXERCÍCIO 09
+// EXERCÍCIO 09
 //  function retornaPrimeiroElemento(array) {
 //  array = ["oi", "bb", "cc"]
 //  return array[0]
@@ -105,11 +105,12 @@
 // }
 // console.log(array[0])
 
-// // EXERCÍCIO 10
-// function retornaUltimoElemento(array) {
-
-
-// }
+// // EXERCÍCIO 10 nao funcionou corretamente
+//  function retornaUltimoElemento(array) {
+//     array = ["ola", "abc"]
+//     return array
+//  }
+//  console.log(array.length -1)
 
 // // EXERCÍCIO 11
 // function trocaPrimeiroEUltimo(array) {
@@ -117,17 +118,24 @@
 
 // }
 
-// // EXERCÍCIO 12
-// function checaIgualdadeDesconsiderandoCase(string1, string2) {
-//   // implemente sua lógica aqui
-
-// }
+// // EXERCÍCIO 12 nao funcionou
+//  function checaIgualdadeDesconsiderandoCase(string1, string2) {
+// const string1 =  "Ola"
+// const string2 = "olA"
+// resultado =  string1 === string2
+//  }
+//  console.log(resultado)
 
 // // EXERCÍCIO 13
-// function checaRenovacaoRG() {
-//   // implemente sua lógica aqui
 
-// }
+//  function checaRenovacaoRG() {
+//     const anoAtual = Number(prompt('Digite o ano atual!'))
+//     const anoNasci = Number(prompt('Digite o ano nascimento!'))
+//     const anoCar = Number(prompt('Digite o ano da emissão da carteira!'))
+  
+    
+      
+//  }
 
 // // EXERCÍCIO 14
 // function checaAnoBissexto(ano) {
@@ -136,7 +144,15 @@
 // }
 
 // // EXERCÍCIO 15
-// function checaValidadeInscricaoLabenu() {
-//   // implemente sua lógica aqui
+ function checaValidadeInscricaoLabenu() {
+    const idadeAtual = prompt('Você tem mais de 18 anos!')
+    const estudo = prompt('Você possui ensino médio completo')
+    const horario = prompt('Você possui disponibilidade exclusiva durante os horários do curso!')
 
-// }
+    if(idadeAtual => 18 && estudo == "sim" && horario == "sim"){
+      console.log(true)
+    }
+      else(
+          console.log(false)
+      )
+ }
