@@ -102,4 +102,17 @@ const produtos = [
  //const nomes = produtos.map(p => p.nome)
  //console.log(nomes)
 
+// letra b
+// const nomes = produtos.map(p => p.nome)
+// const precos = produtos.map(p => p.preco)
+//  console.log(nomes, precos)
+
+// letra c
+// function categoriaBebidas (value){
+//     if (value.categoria == "Bebidas")
+//     return value;
+// }
+// var bebidas = produtos.filter(categoriaBebidas);
+//     console.log(bebidas);
+
 
