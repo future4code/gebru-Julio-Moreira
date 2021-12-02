@@ -107,7 +107,7 @@ const produtos = [
 // const precos = produtos.map(p => p.preco)
 //  console.log(nomes, precos)
 
-// letra c
+letra c
 // function categoriaBebidas (value){
 //     if (value.categoria == "Bebidas")
 //     return value;
