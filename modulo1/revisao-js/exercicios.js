@@ -21,9 +21,15 @@
 
 
 // EXERCÍCIO 03
-function retornaArrayOrdenado(array) {
-  
-}
+// function retornaArrayOrdenado(array) {
+    
+//     var numeros = [3, 2, 1, 4, 7]
+    
+//      return numeros.sort() 
+      
+// }
+// array()
+// console.log (numeros)
 
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
