@@ -4,17 +4,21 @@
 
 
 // EXERCÍCIO 01
-function retornaTamanhoArray(array) {
-   const numeros = [3, 2, 1, 4, 7]
-  return array
-}
-console.log(numeros.lenght)
+// function retornaTamanhoArray(array) {
+//    const numeros = [3, 2, 1, 4, 7]
+//   return array
+// }
+// console.log(numeros.lenght)
 
 
 // EXERCÍCIO 02
-function retornaArrayInvertido(array) {
-  
-}
+// function retornaArrayInvertido(array) {
+//     var myArray = [8, 23, 16, 10]
+//     return myArray.reverse() 
+// }
+// array()
+// console.log(myArray)
+
 
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {
