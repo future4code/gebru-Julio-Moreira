@@ -33,8 +33,19 @@
 
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
-  
-}
+    let numero = [1, 2, 3, 4, 5, 6]
+    
+    var resto = numero % 2;
+   
+    console.log (resto)
+ }
+ array()
+
+
+
+
+ 
+
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
@@ -42,9 +53,17 @@ function retornaNumerosParesElevadosADois(array) {
 }
 
 // EXERCÍCIO 06
-function retornaMaiorNumero(array) {
-  
-}
+// function retornaMaiorNumero(array) {
+
+// const arr = [1,2,3,4,5,6,7]
+
+// const max = Math.max(...arr);
+
+// return max
+// }
+// array()
+// console.log(max)
+
 
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
