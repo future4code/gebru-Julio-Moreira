@@ -33,13 +33,9 @@
 
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
-    let numero = [1, 2, 3, 4, 5, 6]
-    
-    var resto = numero % 2;
-   
-    console.log (resto)
+  
  }
- array()
+
 
 
 
@@ -66,9 +62,20 @@ function retornaNumerosParesElevadosADois(array) {
 
 
 // EXERCÍCIO 07
-function retornaObjetoEntreDoisNumeros(num1, num2) {
 
+function retornaObjetoEntreDoisNumeros(num1, num2) {
+    let num1 = 15
+    let num2 = 30
+    let maiorNumero = num1 > num2
+    let maiorDivisivelPorMenor = num2 == num1
+    let diferenca = num1 % num2
+    return num1,num2
+    
 }
+console.log( maiorNumero, maiorDivisivelPorMenor, diferenca)
+
+
+
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
