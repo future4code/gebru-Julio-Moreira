@@ -92,7 +92,7 @@ class Post extends React.Component {
         <IconeComContador
           icone={iconeCurtida}
           onClickIcone={this.onClickCurtida}
-          valorContador={this.state.numeroCurtidas}
+          valorContador={this.state.numeroCurtidas }
         />
 
         <IconeComContador

@@ -1,26 +1,45 @@
-import React from 'react';
-import styled from 'styled-components'
-import Post from './components/Post/Post';
-
-const MainContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-`
+import React from 'react'
 
 class App extends React.Component {
-  render() {
-    return (
-      <MainContainer>
-        <Post
-          nomeUsuario={'paulinha'}
-          fotoUsuario={'https://picsum.photos/50/50'}
-          fotoPost={'https://picsum.photos/200/150'}
-        />
-      </MainContainer>
-    );
-  }
+state = {
+  listaDePosts: {
+    id: 1,
+    texto: 'Post 1'
+  },
+  textoNovoPost: ''
 }
 
-export default App;
+
+onChangeTextoNovoPost = (event) => {
+  this.setState({textoNovoPost: event.target.value})
+}
+
+adicionarPost = () => {
+  console.log('Adicionar', this.state.textoNovoPost)
+  const novoPost = {
+    id: Date.now(),
+    texto: this.state.textoNovoPost
+  }
+  const novaListaDePost = [novoPost, ...this.state.listaDePosts]
+
+  this.setState({listaDePosts: novaListaDePost})
+}
+
+   render() {
+     return (
+      <div  className="App">
+        <div>
+        <input 
+        type="text"
+        onChange={this.onChangeTextoNovoPost}
+        value={this.state.textoNovoPost}
+        />
+        <button onClick={this.adicionarPost}>
+          Adicionar
+        </button>
+        
+      </div>
+      )
+  </div>
+
+export default App
