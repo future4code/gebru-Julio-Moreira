@@ -1,9 +1,12 @@
+import React from 'react';
+
 import './App.css';
+import Final from './components/Final';
 
 function App() {
   return (
-    <div>
-      <h1>Ola</h1>
+    <div className="App">
+      <Final/>
     </div>
   );
 }
