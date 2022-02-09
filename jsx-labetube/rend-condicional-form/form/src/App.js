@@ -1,12 +1,12 @@
 import React from 'react';
 
 import './App.css';
-import Final from './components/Final';
+import Etapa1 from './components/Etapa1';
 
 function App() {
   return (
     <div className="App">
-      <Final/>
+      <Etapa1/>
     </div>
   );
 }
